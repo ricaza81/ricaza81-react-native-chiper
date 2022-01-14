@@ -1,4 +1,5 @@
 import React from 'react';
+import moment from 'moment';
 
 function Article(props) {
   let base_url = 'https://reddit.com';
@@ -19,7 +20,7 @@ function Article(props) {
         <h4>title: { props.article.title }</h4>
         <h5># votes: { props.article.score }</h5>
         <h5># comments: { props.article.num_comments }</h5>
-        <h6>Creation: { new Date(props.article.created_utc * 1000).toISOString().replace('T', ' ').slice(0, 16) }</h6>
+        <h6>Creation: { moment(new Date(props.article.created_utc * 1000).toISOString().replace('T',' ').slice(0,16)).fromNow()}</h6>
      </div>
      
       </a>
