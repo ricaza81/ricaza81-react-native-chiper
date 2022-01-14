@@ -17,9 +17,9 @@ function Article(props) {
 
      
         <h4>title: { props.article.title }</h4>
-        <h3># votes: { props.article.score }</h3>
-        <h3># comments: { props.article.num_comments }</h3>
-        <h3>Creation: { new Date(props.article.created_utc)}</h3>
+        <h5># votes: { props.article.score }</h5>
+        <h5># comments: { props.article.num_comments }</h5>
+        <h5>Creation: { new Date(props.article.created_utc)}</h5>
      
       </a>
     </article>

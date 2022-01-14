@@ -17,9 +17,9 @@ function Article(props) {
 
      <div className="col-md-3">
         <h4>title: { props.article.title }</h4>
-        <h3># votes: { props.article.score }</h3>
-        <h3># comments: { props.article.num_comments }</h3>
-        <h3>Creation: { new Date(props.article.created).toLocaleDateString("en-US") }</h3>
+        <h5># votes: { props.article.score }</h5>
+        <h5># comments: { props.article.num_comments }</h5>
+        <h6>Creation: { new Date(props.article.created_utc).toISOString().replace('T', ' ').slice(0, 16) }</h6>
      </div>
      
       </a>

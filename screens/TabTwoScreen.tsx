@@ -29,7 +29,7 @@ export default function TabTwoScreen() {
       <Text style={styles.title}>Top Post Reddit</Text>
        <Text style={styles.score}>
          {(articles != null) ? articles.map((article, index) => 
-           <Article key={index} article={article.data} 
+           <Article style={styles.score} key={index} article={article.data} 
 
            
 
