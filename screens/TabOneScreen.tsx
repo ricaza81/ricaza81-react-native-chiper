@@ -5,6 +5,7 @@ import { Text, View } from '../components/Themed';
 import { RootTabScreenProps } from '../types';
 import {useState, useEffect} from 'react';
 import Article from '../components/Article';
+import "../App.css";
 
 export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'>) {
   
@@ -30,7 +31,7 @@ const [articles, setArticles] = useState([]);
     
     <View style={styles.container}>
       <Text style={styles.title}>New Post Reddit</Text>
-      <Text>
+      <Text style={styles.tablist}>
          {(articles != null) ? articles.map((article, index) => 
            <Article key={index} article={article.data} 
 
@@ -62,7 +63,11 @@ const styles = StyleSheet.create({
     height: 1,
     width: '80%',
   },
-
+  tablist: {  
+    borderBottom: '1px solid #ccc',
+    paddingLeft: 0,
+    flex: true,
+}
   /*articles: {
   padding: 30px 15px,
   background-color: #FFF,
