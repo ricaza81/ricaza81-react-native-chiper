@@ -9,3 +9,4 @@
 #### 3> run npm start
 
 # Please check Expo
+#### https://expo.dev/@rzambrano1981/react-native-app-uno
