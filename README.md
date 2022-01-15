@@ -11,7 +11,7 @@ For more information about the JSON structure see: https://github.com/reddit/red
 #### 2> run npm install
 #### 3> run npm start
 
-# Using Fecth to Api Reddit
+# Using Fetch to Api Reddit
 ###### export default function App() {
 ###### const [articles, setArticles] = useState([]);
 ######  const [subreddit, setSubreddit] = useState('pics');
