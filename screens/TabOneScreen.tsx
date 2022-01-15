@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
   
   img: {
     flex:0.3,
-    width:'10px'
+    width:10
   },
 
   title: {
