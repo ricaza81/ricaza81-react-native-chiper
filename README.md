@@ -11,7 +11,7 @@
 # Run in Browser
 #### After npm start please check > Run in web browser
 
-![img](https://i.imgur.com/4vXTU9J.jpeg)
+![img](https://drive.google.com/file/d/1KGnk5vLflt7vVl3mwHCalchIhgqfeX3z/view?usp=sharing)
 
 # Please check Expo in Android
 #### https://expo.dev/@rzambrano1981/react-native-app-uno
