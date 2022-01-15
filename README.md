@@ -1,6 +1,9 @@
 # react-native-chiper
 
 ## Get a feed from >>> https://api.reddit.com/r/pics/hot.json
+To obtain the list of posts of a subreddit use the following URL: https://api.reddit.com/r/pics/hot.json
+
+For more information about the JSON structure see: https://github.com/reddit/reddit/wiki/JSON
 
 # Install:
 #### 1> git clone this repo >>> 
