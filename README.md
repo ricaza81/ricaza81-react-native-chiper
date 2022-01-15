@@ -10,22 +10,22 @@
 
 # Using Fecth to Api Reddit
 #####
-const [articles, setArticles] = useState([]);
-  const [subreddit, setSubreddit] = useState('pics');
-  useEffect(() => {
-    fetch("https://www.reddit.com/r/" + subreddit +"/hot.json").then(
-      res => {
-        if (res.status !== 200) {
-          console.warn("Warning: Something is wrong with the api.");
-          return;
-        }
-        res.json().then(data => {
-          if (data != null)
-            setArticles(data.data.children);
-        });
-      }
-    )
-  }, [subreddit]);
+###### const [articles, setArticles] = useState([]);
+######  const [subreddit, setSubreddit] = useState('pics');
+######  useEffect(() => {
+######    fetch("https://www.reddit.com/r/" + subreddit +"/hot.json").then(
+######      res => {
+######        if (res.status !== 200) {
+######          console.warn("Warning: Something is wrong with the api.");
+######          return;
+######        }
+######        res.json().then(data => {
+######          if (data != null)
+######            setArticles(data.data.children);
+######        });
+######      }
+######    )
+######  }, [subreddit]);
 
 # Run in Browser
 #### After npm start please check > Run in web browser
