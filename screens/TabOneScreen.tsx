@@ -31,9 +31,9 @@ export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'
     
     <View style={styles.container}>
       <Text style={styles.title}>New Post Reddit</Text>
-      <Text style={styles.title}>
+      <Text style={styles.title_rigth}>
          {(articles != null) ? articles.map((article, index) => 
-           <Article style={styles.container} key={index} article={article.data} 
+           <Article key={index} article={article.data} 
 
 
 
@@ -55,10 +55,24 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     
   },
+  
+  img: {
+    flex:0.3,
+    width:'10px'
+  },
+
   title: {
     fontSize: 20,
     fontWeight: 'bold',
+    flex: 1,
+    float: 'left'
   },
+  title_rigth: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    flex: 1,
+    float: 'rigth'
+  },  
   separator: {
     marginVertical: 30,
     height: 1,
