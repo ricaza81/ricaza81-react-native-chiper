@@ -7,6 +7,7 @@ import Navigation from './navigation';
 import React from 'react';
 import { useState, useEffect } from 'react';
 import Article from './components/Article';
+import './index.css';
 
 export default function App() {
   const isLoadingComplete = useCachedResources();
