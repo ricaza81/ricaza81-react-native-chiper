@@ -36,7 +36,7 @@ For more information about the JSON structure see: https://github.com/reddit/red
 ######    )
 ######  }, [subreddit]);
 
-# Run in Browser
+# Run in Browser with Expo
 #### After npm start please check > Run in web browser
 
 ![img](https://github.com/ricaza81/ricaza81-react-native-chiper/raw/master/browser.gif)
