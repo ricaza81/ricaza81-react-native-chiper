@@ -76,9 +76,11 @@ const styles = StyleSheet.create({
     marginVertical: 30,
     height: 1,
     width: '80%',
+    fontSize: 20
   },
   tablist: {  
     paddingLeft: 0,
+    fontSize: 20
     //flex: true,
 }
   /*articles: {

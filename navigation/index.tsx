@@ -98,7 +98,7 @@ function BottomTabNavigator() {
         name="TabThree"
         component={TabThreeScreen}
         options={{
-          title: 'Popular',
+         title: 'Popular',
           tabBarIcon: ({ color }) => <TabBarIcon color={color} />,
         }}
       />
@@ -119,7 +119,7 @@ function BottomTabNavigator() {
  */
 function TabBarIcon(props: {
   name: React.ComponentProps<typeof FontAwesome>['name'];
-  color: string;
+  color: '#000';
 }) {
-  return <FontAwesome size={30} style={{ marginBottom: -3 }} {...props} />;
+  return <FontAwesome size={30} style={{ marginBottom: 3 }} {...props} />;
 }
