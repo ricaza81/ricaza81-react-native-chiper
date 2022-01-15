@@ -5,7 +5,6 @@ import { Text, View } from '../components/Themed';
 import { RootTabScreenProps } from '../types';
 import {useState, useEffect} from 'react';
 import Article from '../components/Article';
-//import "../App.css";
 
 export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'>) {
   
