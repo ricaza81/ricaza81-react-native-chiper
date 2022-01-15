@@ -10,7 +10,7 @@ export default function TabThreeScreen() {
   const [articles, setArticles] = useState([]);
   const [subreddit, setSubreddit] = useState('pics');
   useEffect(() => {
-    fetch("https://www.reddit.com/r/" + subreddit +"/hot.json").then(
+    fetch("https://www.reddit.com/r/" + subreddit +"/controversial.json").then(
       res => {
         if (res.status !== 200) {
           console.warn("Warning: Something is wrong with the api.");

@@ -12,7 +12,7 @@ export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'
   const [articles, setArticles] = useState([]);
   const [subreddit, setSubreddit] = useState('pics');
   useEffect(() => {
-    fetch("https://www.reddit.com/r/" + subreddit +"/hot.json").then(
+    fetch("https://www.reddit.com/r/" + subreddit +"/new.json").then(
       res => {
         if (res.status !== 200) {
           console.warn("Warning: Something is wrong with the api.");
