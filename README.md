@@ -42,7 +42,3 @@ For more information about the JSON structure see: https://github.com/reddit/red
 ![img](https://github.com/ricaza81/ricaza81-react-native-chiper/raw/master/browser.gif)
 
 ![img](https://github.com/ricaza81/ricaza81-react-native-chiper/raw/master/browser-4.gif)
-
-# Please check Expo in Android
-#### https://expo.dev/@rzambrano1981/react-native-app-uno
-
