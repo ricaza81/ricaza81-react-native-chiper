@@ -16,7 +16,7 @@ function Article(props) {
            <div className="row" style={{ backgroundColor: '#eee', padding:10 }}>
           
            <img  src={props.article.thumbnail} style={{ width: 114, height: 100, float: 'left', padding:10 }}/>
-           <h6 style={{ backgroundColor: '#eee', marginTop:3, }}> Title: { props.article.title } | <br/> Author: { props.article.author_fullname } | <br/> # votes: { props.article.score } | # comments: { props.article.num_comments } | Creation: { moment(new Date(props.article.created_utc * 1000).toISOString().replace('T',' ').slice(0,16)).fromNow()}</h6>
+           <h6 style={{ backgroundColor: '#eee', marginTop:3, }}> Title: { props.article.title } | <br/> Author: { props.article.author } | <br/> # votes: { props.article.score } | # comments: { props.article.num_comments } | Creation: { moment(new Date(props.article.created_utc * 1000).toISOString().replace('T',' ').slice(0,16)).fromNow()}</h6>
           
            </div>
     
