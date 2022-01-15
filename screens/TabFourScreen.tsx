@@ -28,7 +28,7 @@ export default function TabFourScreen() {
     <View style={styles.container}>
       <Text style={styles.title}>Hot Post Reddit</Text>
       
-       <Text style={styles.title}>
+       <Text style={styles.container}>
          {(articles != null) ? articles.map((article, index) => 
            <Article key={index} article={article.data} 
 

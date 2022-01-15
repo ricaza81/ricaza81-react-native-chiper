@@ -28,7 +28,7 @@ export default function TabThreeScreen() {
     <View style={styles.container}>
       <Text style={styles.title}>Popular Post Reddit</Text>
 
-       <Text style={styles.title}>
+       <Text style={styles.container}>
          {(articles != null) ? articles.map((article, index) => 
            <Article key={index} article={article.data} 
 

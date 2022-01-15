@@ -30,7 +30,7 @@ export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'
     
     <View style={styles.container}>
       <Text style={styles.title}>New Post Reddit</Text>
-      <Text style={styles.title_rigth}>
+      <Text style={styles.container}>
          {(articles != null) ? articles.map((article, index) => 
            <Article key={index} article={article.data} 
 
