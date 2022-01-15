@@ -44,7 +44,7 @@ export default function App() {
     let base_url = 'https://reddit.com';
     return (
       <SafeAreaProvider>
-        <Navigation colorScheme={colorScheme} />     
+        <Navigation colorScheme={colorScheme} />
         <StatusBar />
       </SafeAreaProvider>
     );

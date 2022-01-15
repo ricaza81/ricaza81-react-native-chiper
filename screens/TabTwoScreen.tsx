@@ -27,9 +27,9 @@ export default function TabTwoScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Top Post Reddit</Text>
-       <Text style={styles.score}>
+       <Text style={styles.container}>
          {(articles != null) ? articles.map((article, index) => 
-           <Article style={styles.score} key={index} article={article.data} 
+           <Article style={styles.container} key={index} article={article.data} 
 
            
 
