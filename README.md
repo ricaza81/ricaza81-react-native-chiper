@@ -8,5 +8,9 @@
 #### 2> run npm install
 #### 3> run npm start
 
+# Run in Browser
+#### After npm start please check > Run in web browser
+
 # Please check Expo in Android
 #### https://expo.dev/@rzambrano1981/react-native-app-uno
+
