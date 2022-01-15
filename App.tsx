@@ -2,14 +2,14 @@ import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import {ActivityIndicator, FlatList} from 'react-native';
 import axios from 'axios';
-import "./App.css";
+
 
 import useCachedResources from './hooks/useCachedResources';
 import useColorScheme from './hooks/useColorScheme';
 import Navigation from './navigation';
 import React from 'react';
 import {useState, useEffect} from 'react';
-import ApiContainer from './components/Screens/ApiContainer';
+//import ApiContainer from './components/Screens/ApiContainer';
 import Article from './components/Article';
 
 export default function App() {
@@ -44,11 +44,8 @@ export default function App() {
     let base_url = 'https://reddit.com';
     return (
       <SafeAreaProvider>
-        <Navigation colorScheme={colorScheme} />
-        
-     
+        <Navigation colorScheme={colorScheme} />     
         <StatusBar />
-
       </SafeAreaProvider>
     );
   }
