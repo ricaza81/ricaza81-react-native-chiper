@@ -6,10 +6,10 @@ To obtain the list of posts of a subreddit use the following URL: https://api.re
 For more information about the JSON structure see: https://github.com/reddit/reddit/wiki/JSON
 
 Sort Api by: New / Top / Popular / Hot
-New >> fetch("https://www.reddit.com/r/" + subreddit +"/new.json")
-Top >> fetch("https://www.reddit.com/r/" + subreddit +"/top.json")
-Popular >> fetch("https://www.reddit.com/r/" + subreddit +"/controversial.json")
-Hot >> fetch("https://www.reddit.com/r/" + subreddit +"/hot.json")
+###### New >> fetch("https://www.reddit.com/r/" + subreddit +"/new.json")
+###### Top >> fetch("https://www.reddit.com/r/" + subreddit +"/top.json")
+###### Popular >> fetch("https://www.reddit.com/r/" + subreddit +"/controversial.json")
+###### Hot >> fetch("https://www.reddit.com/r/" + subreddit +"/hot.json")
 
 # Install:
 #### 1> git clone this repo >>> 
