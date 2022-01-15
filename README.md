@@ -11,7 +11,7 @@
 # Run in Browser
 #### After npm start please check > Run in web browser
 
-![img](https://i.imgur.com/4vXTU9J.jpeg)
+![img](https://github.com/chiper-inc/React-Native-Coding-Challenge/chiper-inc/React-Native-Coding-Challenge/raw/master/showcase.gif)
 
 # Please check Expo in Android
 #### https://expo.dev/@rzambrano1981/react-native-app-uno
