@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, ScrollView} from 'react-native';
 
 import EditScreenInfo from '../components/EditScreenInfo';
 import { Text, View } from '../components/Themed';
@@ -26,17 +26,13 @@ export default function TabTwoScreen() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Top Post Reddit</Text>
-       <Text style={styles.container}>
-         {(articles != null) ? articles.map((article, index) => 
-           <Article style={styles.container} key={index} article={article.data} 
-
-           
-
-
-           />) : ''}
-
-      </Text>
+       <ScrollView style={styles.containerProfil}>
+        <Text style={styles.title}>Top Post Reddit</Text>
+         <Text style={styles.container}>
+           {(articles != null) ? articles.map((article, index) => 
+             <Article style={styles.container} key={index} article={article.data}/>) : ''}
+        </Text>
+       </ScrollView>
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
       <EditScreenInfo path="/screens/TabTwoScreen.tsx" />
     </View>

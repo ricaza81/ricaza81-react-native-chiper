@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, ScrollView} from 'react-native';
 
 import EditScreenInfo from '../components/EditScreenInfo';
 import { Text, View } from '../components/Themed';
@@ -29,11 +29,13 @@ export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'
   return (
     
     <View style={styles.container}>
+     <ScrollView style={styles.containerProfil}>
       <Text style={styles.title}>New Post Reddit</Text>
       <Text style={styles.container}>
          {(articles != null) ? articles.map((article, index) => 
            <Article key={index} article={article.data}/>) : ''}
       </Text>
+      </ScrollView>
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
       <EditScreenInfo path="/screens/TabOneScreen.tsx" />
     </View>
